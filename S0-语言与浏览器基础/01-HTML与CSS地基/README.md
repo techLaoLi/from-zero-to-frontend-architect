@@ -77,28 +77,32 @@
 
 - [x] HTML的header、nav、main和footer标签
   - 发布标题：header、nav、main、footer 四个标签各管哪一块？
-  - header、nav、main、footer 的写法示例
+  - header、nav、main、footer 写出来的整页结构
   - 四个标签的概念和适用位置
+  - header 和 head 有什么区别
   - 要点总结：整页结构怎么搭
 - [x] HTML的article和section标签
   - 发布标题：article 和 section 有什么区别？语义化怎么选
-  - article、section 的写法示例
-  - 两个标签的概念和嵌套边界
+  - article 和 section 写出来的结构
+  - article 和 section 的概念和区别
+  - article 和 section 怎么嵌套
   - 要点总结：正文分区怎么切
 - [x] HTML的blockquote和q标签
   - 发布标题：blockquote 和 q 有什么区别？引用内容怎么标
-  - blockquote、q 的写法示例
-  - 两个标签的概念和引用场景
+  - blockquote 和 q 写出来的引用
+  - blockquote 和 q 的概念和区别
   - 要点总结：引用标签怎么选
 - [x] HTML的code和pre标签
   - 发布标题：code 和 pre 有什么区别？代码在页面上怎么显示
-  - code、pre 的写法示例
-  - 两个标签的概念和换行保留规则
+  - code 和 pre 写出来的代码块
+  - code 和 pre 的概念和区别
+  - 一整段代码怎么写：pre 里面套 code
   - 要点总结：代码标签怎么选
 - [x] HTML的figure和figcaption标签
   - 发布标题：figure 和 figcaption 是什么？图片和图注怎么写
-  - figure、figcaption 的写法示例
-  - 两个标签的概念和配对规则
+  - figure 和 figcaption 写出来的图注
+  - figure 和 figcaption 的概念和区别
+  - alt 和 figcaption 有什么区别
   - 要点总结：图片说明怎么写
 
 ### HTML 表格
