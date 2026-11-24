@@ -48,13 +48,19 @@
 ## 已完成
 
 - 专栏 01《HTML + CSS 地基》拆为 99 篇 / 14 模块，状态「连载中」。
-- 已写 15 篇：001–015。全部同步了新发布标题的 H1 与主图。
+- 已写 20 篇：001–020。全部同步了新发布标题的 H1 与主图。
 - 专栏 01 全部 99 篇已在 README 登记「发布标题」。
-- **GEO 改造完成 6 篇**：010 div/span、011 header/nav/main/footer、012 article/section、013 blockquote/q、014 code/pre、015 figure/figcaption。均含加粗定义句、含核心词小标题、代码块前后交代、结尾结论收束。
-- 待改造 9 篇：001–009。
+- **GEO 改造完成 10 篇**：010 div/span、011 header/nav/main/footer、012 article/section、013 blockquote/q、014 code/pre、015 figure/figcaption、016 table、017 合并单元格、018 form、019 input text、020 密码框邮箱框多行。均含加粗定义句、含核心词小标题、代码块前后交代、结尾结论收束。
+- 待改造 9 篇：001–009（正文重排）。待写 59 篇：021–079。
 
 ## 校验工具（2026-11-24）
 
-改完正文后跑一遍校验，确认「正文小标题 ↔ README 大纲」逐条对应 + GEO 8 条达标。检查代码块前后交代句时**要找最近的非空行**，不能只看相邻行——Markdown 的空行会误判。
+`tools/check_articles.py`：一条命令跑完 6 项检查（H1=发布标题 / 小标题=README 大纲 / GEO 4 项 / 代码块前后交代 / 主图存在）。
+
+改完正文后跑一遍，确认「正文小标题 ↔ README 大纲」逐条对应 + GEO 8 条达标。注意：
+- 检查代码块前后交代句时**要找最近的非空行**，不能只看相邻行——Markdown 的空行会误判。
+- 目录名与 README 条目名可能有空格差异，匹配时要去空格。
+- **验证 HTML 行为用 BeautifulSoup 解析 DOM，不要用 WebKit**——当前环境缺 GUI session，WKWebView 脚本编译通过但运行时永久挂起。
+
 
 
